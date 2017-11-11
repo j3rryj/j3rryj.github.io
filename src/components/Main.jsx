@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import routes from './routes/route.js';
-
-class Main extends Component {
-  render() {
-    return(
-      <div className='background' style={{backgroundImage: 'url(./../../webdev.jpg)', height: '640px'}}>
-        {this.props.styleHeader()}
-        {routes}
-      </div>
-    )
-  }
+const Main = (props) => {
+  return (
+    <div className="main">
+      {props.routes}
+    </div>
+  )
 }
 
 export default Main;
