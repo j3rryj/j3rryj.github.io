@@ -36792,7 +36792,7 @@ var App = function (_Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/home' },
+            { to: '/' },
             _react2.default.createElement(
               'button',
               { className: 'header-btn header-btn-active' },
@@ -36824,7 +36824,7 @@ var App = function (_Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/home' },
+            { to: '/' },
             _react2.default.createElement(
               'button',
               { className: 'header-btn' },
@@ -36856,7 +36856,7 @@ var App = function (_Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/home' },
+            { to: '/' },
             _react2.default.createElement(
               'button',
               { className: 'header-btn' },

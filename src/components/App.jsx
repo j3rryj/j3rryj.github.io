@@ -18,7 +18,7 @@ class App extends Component {
     if (route === 'home' || route === '') {
       return (
         <div>
-          <Link to='/home'>
+          <Link to='/'>
             <button className="header-btn header-btn-active">Home</button>
           </Link>
           <Link to='/portfolio'>
@@ -32,7 +32,7 @@ class App extends Component {
     } else if (route === 'portfolio') {
       return (
         <div>
-          <Link to='/home'>
+          <Link to='/'>
             <button className="header-btn">Home</button>
           </Link>
           <Link to='/portfolio'>
@@ -46,7 +46,7 @@ class App extends Component {
     } else if (route === 'blog') {
       return (
         <div>
-          <Link to='/home'>
+          <Link to='/'>
             <button className="header-btn">Home</button>
           </Link>
           <Link to='/portfolio'>
