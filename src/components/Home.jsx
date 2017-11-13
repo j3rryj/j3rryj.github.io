@@ -18,7 +18,7 @@ class Home extends Component {
       showCursor: true,
     };
     this.typed = new Typed(this.el, options);
-  }
+  } 
 
   componentWillUnMount() {
     this.typed.destroy();
