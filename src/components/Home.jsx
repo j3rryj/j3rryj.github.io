@@ -29,8 +29,8 @@ class Home extends Component {
       <div className="home-div">
         <span className="typer" ref={(el) => { this.el = el; }}/><br/>
         <div className="home-div-contact">
-        <button className="home-div-contact-btn" href="https://www.dropbox.com/s/wulobj7z2wizjjg/Jerry%20Jong%20Resume.pdf?dl=0">Contact</button>
-        <button className="home-div-contact-btn" href="https://www.dropbox.com/s/wulobj7z2wizjjg/Jerry%20Jong%20Resume.pdf?dl=0">Resume</button>
+        <a className="home-div-contact-btn" href="https://www.dropbox.com/s/wulobj7z2wizjjg/Jerry%20Jong%20Resume.pdf?dl=0">Contact</a>
+        <a className="home-div-contact-btn" href="https://www.dropbox.com/s/wulobj7z2wizjjg/Jerry%20Jong%20Resume.pdf?dl=0">Resume</a>
         </div>
       </div>
     )
