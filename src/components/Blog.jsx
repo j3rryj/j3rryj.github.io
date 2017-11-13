@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import Paper from 'material-ui/Paper';
 import axios from 'axios';
 import ReactHtmlParser from 'react-html-parser';
+import classNames from 'classnames';
 import { Card, CardMedia, CardActions, CardHeader, CardText } from 'material-ui/Card';
 
 class Blog extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      newExpandedState: false,
       data: [ { creator: 'Jerry Jong',
       title: 'All About that Sass',
       link: 'https://medium.com/@jerryjong01/all-about-that-sass-8c56a35e87a1?source=rss-86c94f3c8187------2',
@@ -46,39 +48,31 @@ class Blog extends Component {
       picture: 'https://cdn-images-1.medium.com/max/1024/1*yqSYIZNfRPHeF-tCTrRrIw.png',
       guid: 'https://medium.com/p/59d59acd5cf3',
       isoDate: '2017-07-14T00:34:23.000Z' } ]
-    }
-  }
-
-  componentDidMount() {
-    // this.grabMediumPosts();
-  }
-
-  grabMediumPosts() {
-    axios.get('/api/medium')
-    .then( async (res) => {
-      console.log(res.data)
-      if (this.state.data == null) {
-        await this.setState({
-          data: res.data
-        })
-      }
-      console.log(this.state.data)
-      await this.styleMediumPosts();
-    })
-    .catch((err) => {
-      console.error(err);
-    })
-  }
-
+    };
+  };
+  
   styleMediumPosts() {
     console.log('styling')
     let posts = this.state.data;
+    const cardClasses = classNames({
+      blogpost: true, // we always want this class
+      expanded: this.state.newExpandedState, // only add this class if the state says so
+    });
+    const mediaClasses = classNames({
+      blogmedia: true,
+      cardmedia: this.state.newExpandedState, // we always want this class
+    });
     return posts.map(post => {
       return (
-        <div style={{margin: '0 auto', border: '4px solid white', width: '22%', marginLeft: '2%', display: 'inline-block'}}>
-          <Card style={{backgroundColor: 'black', letterSpacing: '1px'}}>
-            <CardMedia style={{overflow: 'hidden', height: '150px'}}>
-              <img style={{backgroundColor: 'white'}} src={post.picture}/>
+        <div className={cardClasses}>
+          <Card 
+            className="blog-card"
+            onExpandChange={(newExpandedState) => {
+              this.setState({newExpandedState})
+            }}
+          >
+            <CardMedia className={mediaClasses}>
+              <img src={post.picture}/>
             </CardMedia>
             <CardHeader
               titleColor='white'
@@ -99,8 +93,12 @@ class Blog extends Component {
   }
 
   render() {
+    const classes = classNames({
+      inactive: !this.state.newExpandedState, // only add this class if the state says so
+      active: this.state.newExpandedState,
+   });
     return(
-      <div style={{marginTop: '5%'}}>
+      <div className={classes}>
         {this.styleMediumPosts()}
       </div>
     )
