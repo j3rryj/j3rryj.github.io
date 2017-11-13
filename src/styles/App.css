@@ -11,6 +11,35 @@ body {
   background-size:100% auto;
 }
 
+.home-div {
+  text-align: center;
+  padding-top: 18%;
+}
+
+.home-div-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.home-div-contact-btn {
+  border: 1px solid white !important;
+  background-color: transparent;
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.typer {
+  white-space: pre;
+  letter-spacing: 12px;
+  color: white;
+  margin: 0 auto;
+  font-size: 3.5em;
+  font-weight: 900
+}
+
 
 .typed-cursor {
   opacity: 1;
@@ -133,9 +162,61 @@ button:focus {
 .blogmedia {
   overflow: hidden !important;
   height: 150px !important;
+  border: 1px solid white !important;
+  border-width: 1px 1px 0px 1px !important;
+}
+
+.blog-header {
+  border: 1px solid white !important;
 }
 
 .blog-card {
   background-color: black !important;
   letter-spacing: 1px !important;
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 24%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+  }
+
+  .portfolio-container {
+    margin-top: 180px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
 }
