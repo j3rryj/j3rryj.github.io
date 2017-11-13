@@ -10,17 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "material-ui": "^0.19.1",
-    "mongoose": "^4.11.11",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-html-parser": "^2.0.0",
-    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-slick": "^0.15.4",
     "rss-parser": "^2.10.4"
