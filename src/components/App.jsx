@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import './../styles/App.css';
-import axios from 'axios';
-
 import { Link } from 'react-router-dom';
 
+import './../styles/App.css';
 import Header from './Header.jsx';
 import routes from './routes/route.js';
 import Main from './Main.jsx';
