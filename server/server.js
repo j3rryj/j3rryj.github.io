@@ -17,10 +17,7 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname + './../index.html'));
 })
 
-app.get('/webdev.jpg', (req, res) => {
-  res.sendFile(path.join(__dirname + 'webdev.jpg'))
-})
-
+app.use('*', express.static(path.join(__dirname, '../public')));
 // app.get('/grabbing/blogs/rah', mediumController.getBlogs);
 // app.get('/api/medium', mediumController.findBlogs);
 
