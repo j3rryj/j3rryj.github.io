@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Paper from 'material-ui/Paper';
-import axios from 'axios';
 import ReactHtmlParser from 'react-html-parser';
 import classNames from 'classnames';
 import { Card, CardMedia, CardActions, CardHeader, CardText } from 'material-ui/Card';
@@ -75,6 +74,7 @@ class Blog extends Component {
               <img src={post.picture}/>
             </CardMedia>
             <CardHeader
+              className="blog-header"
               titleColor='white'
               subtitleColor='lightgrey'
               title={post.title.slice(0, 16) + '...'}
