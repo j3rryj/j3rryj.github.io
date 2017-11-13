@@ -64,7 +64,7 @@ class Blog extends Component {
     });
     return posts.map(post => {
       return (
-        <div className={cardClasses}>
+        <div key={post.guid} className={cardClasses}>
           <Card 
             className="blog-card"
             onExpandChange={(newExpandedState) => {
