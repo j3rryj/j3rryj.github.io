@@ -178,8 +178,10 @@ button:focus {
 }
 
 @media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
   .typer, .typed-cursor {
     font-size: 1em;
   }
@@ -205,6 +207,439 @@ and (max-device-width : 736px) {
 
   .carousel-pic {
     height: 130px;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+    background-color: rgba(211, 211, 211, 0.4);
+  }
+
+  .portfolio-container {
+    margin-top: 40px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 140px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 24%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+  }
+
+  .portfolio-container {
+    margin-top: 180px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 130px;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+    background-color: rgba(211, 211, 211, 0.4);
+  }
+
+  .portfolio-container {
+    margin-top: 40px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 140px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 24%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+  }
+
+  .portfolio-container {
+    margin-top: 180px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 130px;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+    background-color: rgba(211, 211, 211, 0.4);
+  }
+
+  .portfolio-container {
+    margin-top: 40px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 140px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)  {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 24%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+  }
+
+  .portfolio-container {
+    margin-top: 180px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 130px;
+  }
+
+  .blogmedia {
+    height: 150px !important;
+  }
+
+  .blog-card div div:last-child figure img {
+    max-width: 80%;
+  }
+
+  .blogpost {
+    width: 70%;
+    margin: 20px;
+  }
+
+  .inactive {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .typer, .typed-cursor {
+    font-size: 1em;
+  }
+  
+  .home-div-contact {
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-div-contact-btn {
+    width: 94%;
+    margin: 4px;
+    background-color: rgba(211, 211, 211, 0.4);
+  }
+
+  .portfolio-container {
+    margin-top: 30px;
+  }
+
+  .carousel-container {
+    height: 240px;
+  }
+
+  .carousel-pic {
+    height: 140px;
+    width: 50%;
+    margin-left: 25%;
   }
 
   .blogmedia {
