@@ -201,6 +201,10 @@ and (max-device-width : 736px) {
     height: 240px;
   }
 
+  .carousel-pic {
+    height: 130px;
+  }
+
   .blogmedia {
     height: 150px !important;
   }
@@ -217,6 +221,14 @@ and (max-device-width : 736px) {
   .inactive {
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+
+  .active {
+    margin-top: 20px;
+  }
+
+  .app-container {
+    height: 500px;
   }
 }
