@@ -20,7 +20,7 @@ class App extends Component {
     if (route === 'home' || route === '') {
       return (
         <div>
-          <Link style={{margin: '0 auto', padding: 0}} to='/home'>
+          <Link to='/home'>
             <button className="header-btn header-btn-active">Home</button>
           </Link>
           <Link to='/portfolio'>
