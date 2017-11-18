@@ -26,6 +26,11 @@
 		top: 0;
 	}
 
+	.navbar, .sticky-wrapper {
+		opacity: 1;
+		z-index: 99999;
+	}
+
 	.home-section {
 		margin-top: 50px;
 	}
