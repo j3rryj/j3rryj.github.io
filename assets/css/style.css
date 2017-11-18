@@ -517,11 +517,13 @@ SOCIAL ICON
 }
 
 .navbar-brand > h2 {
-    color: #282828 !important;
+    color: #4aa0c2 !important;
+    font-family: 'Lobster', cursive !important;
 }
 
 .navbar-brand > h2 > span {
     color: #f19F4D !important;
+    font-family: 'Lobster', cursive !important;    
 }
 
 .navbar-custom .navbar-brand {
