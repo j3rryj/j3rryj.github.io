@@ -42,11 +42,12 @@
 
 	/*about me section*/
 	.biography {
+		margin-top: 20px;
 		margin-bottom: 45px;
 	}
 
-	.about-section {
-		padding: 0 !important;
+	.sticky-wrapper {
+		position: fixed;
 	}
 
 	ul.list-check li {
