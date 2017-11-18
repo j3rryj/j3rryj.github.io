@@ -141,7 +141,7 @@ jQuery(function ($) {
                 //your configuration goes here
                 easing: 'easeOut',
                 delay: 3000,
-                barColor:'rgb(250, 165, 38)',
+                barColor:'rgb(255, 73, 73)',
                 trackColor:'rgba(255,255,255,0.2)',
                 scaleColor: false,
                 lineWidth: 8,
@@ -344,7 +344,7 @@ jQuery(function ($) {
                 },{
                     featureType: "road",
                     stylers: [
-                        { hue: '#f19f3d' },
+                        { hue: '#e44f59' },
                         { saturation: +10 }
                     ]
                 },{
