@@ -1,17 +1,897 @@
-<!DOCTYPE html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jerry Jong, Developer</title>
-    <link href="public/favicon.png" rel="icon">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,900" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />   
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <div id='root'></div>
-    <script src='/build/bundle.js'></script>
-  </body>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Jerry Jong Web Developer">
+  <meta name="keywords" content="jerry, jong, jerry jong, web developer, full stack engineer, resume, personal website">
+
+	<title>Jerry Jong, Web Developer</title>
+
+  <!-- Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.min.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.min.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- [if lt IE 9]> -->
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <!-- <![endif] -->
+
+  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
+
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+		<div class="intro">
+			<div class="intro-sub">Hey, I'm</div>
+			<h1> &mdash; Jerry  <span>Jong &mdash; </span></h1>
+			<!-- <p>I am a professional full stack engineer specializing in React, Redux, and Node Web Applications<br> Involved with the open source community and the latest technologies<br> feel free to contact me for coffee or freelance work</p> -->
+
+      <div class="social-icons">
+        <ul class="list-inline">
+          <li><a href="https://github.com/j3rryj"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://linkedin.com/in/jerry-jong"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/jerryjong01"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
+
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+	</section><!-- End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+            <h2>Jerry <span>Jong</span></h2>
+          </a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#works">Works</a></li>
+						<li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">About Me</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/myphoto.jpg" alt="">
+              </div>
+              <ul>
+                <li><strong>Name:</strong> Jerry Jong</li>
+                <li><strong>Date of birth:</strong> 18 Jun 1994</li>
+                <li><strong>Location:</strong> Los Angeles</li>
+                <li><strong>Email:</strong> jerryjong01@gmail.com</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>Objective</h3>
+              <p>Always seeking opportunities to work with a team of engineers focused on test-driven development, strong communication skills and writing clean maintainable code while having the passion and drive to stay on the cutting-edge of technology in order to create great products and give back to the community. Presently expanding my knowledge of various programming languages, such as Python and Ruby. I focus on using my strong technical communication skills to guide teams along creating highly scalable React and Node fullstack applications with a strong interest in UI / UX design.</p>
+            </div>
+
+            <div class="short-info wow fadeInUp">
+              <h3>What I Do ?</h3>
+              <p>Software engineer with a penchant for creating grand user experiences through scaling React/Redux applications and optimizing front-end experiences through server-side rendering and third party libraries like Reselect, Redis, and React-router. I regularly contribute to the open source community and have built a lot of full stack applications featuring both SQL and noSQL databases. Besides contributing to the open source community, I am also actively involved in local Socal React meetups and have hosted talks featuring React 16 and a brief intro to React VR. I've professionally done work for @LoudCloud and @SpionIO.</p>
+              
+              <!-- <ul class="list-check">
+                <li>Front-End (React.js, Redux, AngularJS, jQuery)</li>
+                <li>Back-end (Node.js, Postgres, MongoDB, Redis)</li>
+                <li>WebSockets, Express, HTML5/CSS3</li>
+                <li>Mocha, Chai, Jest, Enzyme, Selenium</li>
+              </ul> -->
+            </div>
+
+            <!-- <div class="my-signature">
+              <img src="assets/images/sign.png" alt="">
+            </div> -->
+
+            <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="https://www.dropbox.com/s/wulobj7z2wizjjg/Jerry%20Jong%20Resume.pdf?dl=0"><i class="fa fa-file-pdf-o"></i>View my resume</a>
+            </div>
+          </div>
+
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2012-2016</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Bachelor degree certificate</h3>
+                                            <span>University of California, Santa Barbara</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                          B.S in Actuarial Science
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2016-2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Estimator</h3>
+                                            <span>Aital Custom Glass, Inc.</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Automated risk analysis/budgeting for construction projects, managed internal database of clients and projects and developed AutoCAD 3D renderings of architecture floor plans and elevations.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2016-2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Full Stack Engineer</h3>
+                                            <span>Open Source Projects</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Habitrack, Mapbox, Lightweight-Youtube, Handshake, WeCast</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Lead Front-End Engineer</h3>
+                                            <span>Spion IO</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Optimized front-end experience by syncing React's animation timing with browser's native timing through requestAnimationFrame api to achieve 60FPS repaint of the DOM and created playback animation of user behavior using iframes and React. Developed and deployed company landing site.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>iOS/Android Consultant</h3>
+                                            <span>LoudCloud</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Architect front-end application with React-native and React-navigation to produce point-of-sales iOS/Android application and integrated components into overall application while maintaining common application styles and individual styles for iOS/Android interface differences.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>JavaScript</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+
+            <div class="skill-progress">
+              <div class="skill-title"><h3>React/Redux</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" ><span>92%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>jQuery</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="skill-progress">
+              <div class="skill-title"><h3>HTML5/CSS3</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>SQL</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span>85%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Node</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" ><span>92%</span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+          </div><!-- /.col-md-6 -->
+        </div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>More skills</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+          <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="80" data-color="red">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>AngularJS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="92" data-color="f7882f">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>noSQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="85" data-color="f19f4d">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>React-native</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="80" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Electron</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="75" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Python</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="70" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text">
+                      <span>Ruby</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Works</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li><a data-group="web">Web</a></li>
+            <li><a data-group="interface">Dashboards</a></li>
+            <li><a data-group="design">Mobile</a></li>
+        </ul>
+
+        <div class="row">
+          <div id="grid">
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="www.spion.io"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>SpionIO</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#portfolio"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-2.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Dashboard for Curated Health Articles</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Dashboard for Health Topics</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>iOS/Android LoudCloud App</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://loudpos.com"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>LoudPOS</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Mapbox GL + React</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Playback for SpionIO</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#portfolio"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Dashboard for SpionIO</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-9.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-9.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Habitrack</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-10.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-10.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>TheHeights Basketball Team Site</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-11.jpg"><i class="fa fa-search-plus"></i></a>
+                    <!-- <a href="#portfolio"><i class="fa fa-link"></i></a>                           -->
+                  </div><!-- /.links -->
+                  <img src="assets/images/works/portfolio-11.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>WeCast</h3>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+
+          </div><!-- /#grid -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Works Section -->
+
+
+    <!-- Facts Section -->
+    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="tt-overlay-bg">
+        <div class="container">
+          <!-- <div class="row">
+            <div class="col-md-12">
+              <div class="count-wrap">
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-flask"></i>
+                  <h3 class="timer">7</h3>
+                  <p>Years of Experience</p>
+                </div>
+                <div class="col-sm-3 col-xs-6"> 
+                  <i class="fa fa-thumbs-up"></i>
+                  <h3 class="timer">651</h3>                
+                  <p>Projects Done</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-users"></i>
+                  <h3 class="timer">251</h3> 
+                  <p>Happy Clients</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-trophy"></i>
+                  <h3 class="timer">5</h3> 
+                  <p>Awards Won</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- /.row -->
+        </div><!-- /.container -->
+      </div>
+    </section> <!-- End Facts Section -->
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="latest-blog-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Latest Post</h2>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="https://medium.com/@jerryjong01/all-about-that-sass-8c56a35e87a1"><img src="assets/images/blog/01.jpg" class="img-responsive " alt=""></a>
+                </div>
+                  <i class="fa fa-file-photo-o"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#blog">SASS,</a> <a href="#blog">Stylesheets,</a> <a href="#blog">UI / UX</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="https://medium.com/@jerryjong01/all-about-that-sass-8c56a35e87a1" rel="">All About That SASS</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#blog">Jerry</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#blog">07 Sep 2017</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-like">
+                        <a href="#blog" title="like">62</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#blog" title="">0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-sm-4 -->
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="https://medium.com/@jerryjong01/have-some-fiber-in-your-diet-b7832602281b"><img src="assets/images/blog/02.jpg" class="img-responsive " alt=""></a>
+                </div>
+                <i class="fa fa-file-photo-o"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#blog">React Fiber,</a> <a href="#blog">Front-End</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="https://medium.com/@jerryjong01/have-some-fiber-in-your-diet-b7832602281b" rel="">Have Some Fiber in your Diet</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#blog">Jerry</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#blog">02 Sep 2017</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-like">
+                        <a href="#blog" title="like">7</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#blog" title="">0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-sm-4 -->
+          <div class="col-sm-4">
+            <article class="blog-post-wrapper">
+              <div class="figure">    
+                <div class="post-thumbnail">
+                  <a href="https://medium.com/@jerryjong01/introducing-spion-io-8b548527d990"><img src="assets/images/blog/03.jpg" class="img-responsive " alt=""></a>
+                </div>
+                <i class="fa fa-file-photo-o"></i>
+              </div><!-- /.figure -->
+              <header class="entry-header">
+                <div class="post-meta">
+                  <span class="the-category"> 
+                    <a href="#blog">SpionIO,</a> <a href="#blog">UI / UX,</a> <a href="#blog">A/B Testing</a>
+                  </span>
+                </div>
+                <h2 class="entry-title"><a href="https://medium.com/@jerryjong01/introducing-spion-io-8b548527d990" rel="">Introducing SpionIO</a></h2>
+                <hr>
+                <div class="entry-meta">
+                  <ul class="list-inline">
+                    <li>
+                      <span class="the-author">
+                        <a href="#blog">Jerry</a> 
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-time">
+                        <a href="#blog">17 Aug 2017</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-like">
+                        <a href="#blog" title="like">75</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="the-comments">
+                        <a href="#" title="">0</a>
+                      </span>
+                    </li>
+                  </ul>
+                </div><!-- .entry-meta -->
+              </header><!-- .entry-header -->
+            </article>
+          </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+        <div class="blog-more text-center">
+          <a href="https://medium.com/@jerryjong01" class="btn btn-primary">View More</a>
+        </div>
+        
+      </div><!-- /.container -->
+    </section><!-- End Blog Section -->
+
+
+    <!-- Hire Section -->
+    <section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>I'm available for freelance project</h2>
+              <a href="#contact" class="btn btn-default">Get Hired</a>
+            </div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </div><!-- /.hire-section-bg -->
+    </section><!-- End Hire Section -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Get in touch</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-form">
+              <strong>Send me a message</strong>
+              <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
+
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" class="form-control" id="subject">
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
+                </div>
+
+                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div><!-- /.contact-form -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="row center-xs">
+              <div class="col-sm-6">
+                <i class="fa fa-map-marker"></i>
+                <address>
+                  <strong>Located</strong>
+                  Los Angeles CA, USA<br>
+                </address>
+              </div>
+
+              <div class="col-sm-6">
+                <i class="fa fa-envelope"></i>
+                <div class="contact-number">
+                  <strong>Contact</strong>
+                  jerryjong01@gmail.com<br>
+                </div>
+              </div>
+            </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="location-map">
+                <div id="mapCanvas" class="map-canvas"></div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Contact Section -->
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>Jerry Jong &copy; 2017</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.min.js"></script>
+</body>
 </html>
